@@ -1,0 +1,1 @@
+{"uuid":"8e2af1bd-cc4a-46f1-b946-275920fcd303","name":"Orange HRM app","children":["17740765-aef9-4917-bc2b-5f57cc778323"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1654698571599,"stop":1654698571611}],"afters":[],"links":[],"start":1654698571566,"stop":1654698599879}

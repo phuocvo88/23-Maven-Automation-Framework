@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orange HRM app]">
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ReportNGListener"/>
+    <listener class-name="reportConfig.ExtentTestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run on chrome(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.hrm.employee.Level_16_Live_Coding">
+        <methods>
+          <include name="Employee_04_Contact_Details"/>
+          <include name="Employee_01_Add_New_Employee" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="initBeforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.hrm.employee.Level_16_Live_Coding -->
+    </classes>
+  </test> <!-- Run on chrome(failed) -->
+</suite> <!-- Failed suite [Orange HRM app] -->
